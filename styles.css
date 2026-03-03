@@ -58,3 +58,18 @@ nav li:hover {
     transform: scale(1.1);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
+
+.stats {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff; /* #fff */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+
+    width: 260px;
+    height: 180px;
+    top: 49%;
+    left: 10%;
+    position: absolute;
+}
