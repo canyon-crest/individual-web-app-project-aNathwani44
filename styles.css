@@ -1,5 +1,53 @@
-/* ctrl I to get the coding ai */
-ul {
+/* ctrl/commmand I for ai coding partner */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    background-color: #fff;
+    padding: 15px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #007BFF;
+}
+
+header {
+    justify-content: center;
+    display: flex;
+}
+
+main {
+    margin-top: 20px;
+    text-align: center;
+}
+
+main p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #888;
 }
 
