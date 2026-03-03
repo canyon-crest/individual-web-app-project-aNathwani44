@@ -1,4 +1,8 @@
-/* ctrl/commmand I for ai coding partner */
+/* ctrl/commmand I for ai coding partner */ 
+html {
+        /*cursor: url('images/egg.jpg'), auto; */
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f0f0f0;
@@ -72,4 +76,16 @@ nav li:hover {
     top: 49%;
     left: 10%;
     position: absolute;
+}
+
+#easter-egg {
+    width: 50px;
+    height: 50px;
+    background-color: #ff69b4; /* bright pink */
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(255, 105, 180, 0.3); 
 }

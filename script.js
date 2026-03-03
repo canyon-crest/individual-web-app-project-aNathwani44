@@ -27,3 +27,18 @@ if (lastVisit) {
 
 let now = new Date().toLocaleString();
 localStorage.setItem("lastVisit", now);
+
+
+// easter egg programming 
+
+document.getElementById("easter-egg").addEventListener("click", function() {
+    alert("Congratulations! You've found the Easter Egg! ");
+    document.documentElement.style.cursor = "url('images/egg.jpg'), auto";
+});
+
+// button programming 
+
+document.getElementById("whyDoI-needAButton").addEventListener("click", function() {
+    document.getElementById("whyDoI-needAButton").textContent = "no";
+});
+
