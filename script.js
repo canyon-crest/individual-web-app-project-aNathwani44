@@ -42,3 +42,14 @@ document.getElementById("whyDoI-needAButton").addEventListener("click", function
     document.getElementById("whyDoI-needAButton").textContent = "no";
 });
 
+
+
+emojiUrlHover({
+  'hero-section':  '🔥',
+  'about-section': '👋',
+  'contact-btn':   '💌',
+  'stats': '🤓',
+}, {
+  restore: true,   // reset URL on mouse-leave
+  baseUrl: '/',    // optional custom base path
+});
