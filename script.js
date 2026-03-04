@@ -34,6 +34,15 @@ localStorage.setItem("lastVisit", now);
 document.getElementById("easter-egg").addEventListener("click", function() {
     alert("Congratulations! You've found the Easter Egg! ");
     document.documentElement.style.cursor = "url('images/egg.jpg'), auto";
+    document.getElementById("easter-egg").style.display = "none";
+
+
+    // Reset cursor after 5 seconds
+    setTimeout(function() {
+        document.documentElement.style.cursor = "auto";
+        document.getElementById("easter-egg").style.display = "";
+    }, 5000);
+
 });
 
 // button programming 

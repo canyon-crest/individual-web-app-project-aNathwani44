@@ -78,7 +78,7 @@ nav li:hover {
     position: absolute;
 }
 
-#easter-egg {
+#easter-egg{
     width: 50px;
     height: 50px;
     background-color: #ff69b4; /* bright pink */
@@ -86,8 +86,12 @@ nav li:hover {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    cursor: pointer;
+   /* cursor: pointer; */
     box-shadow: 0 4px 8px rgba(255, 105, 180, 0.3); 
+}
+
+#easter-egg img {
+    cursor: pointer;
 }
 
 #whyDoI-needAButton {
